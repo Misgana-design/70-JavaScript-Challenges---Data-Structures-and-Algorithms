@@ -11,13 +11,13 @@ function titleCase(string) {
 
 //Solution 2
 
-function titleCase(str) {
-  return str
-    .toLowerCase()
-    .split(" ")
-    .map((word) => (word ? word[0].toUpperCase() + word.slice(1) : ""))
-    .join(" ");
-}
+// function titleCase(str) {
+//   return str
+//     .toLowerCase()
+//     .split(" ")
+//     .map((word) => (word ? word[0].toUpperCase() + word.slice(1) : ""))
+//     .join(" ");
+// }
 
 //Solution 3
 

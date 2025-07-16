@@ -1,12 +1,12 @@
 //Solution 1 unupdated one
 
-// function isPalindrome(str) {
-//   let reversed = "";
-//   for (let i = str.length - 1; i >= 0; i--) {
-//     reversed = reversed + str[i];
-//   }
-//   return str === reversed;
-// }
+function isPalindrome(str) {
+  let reversed = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversed = reversed + str[i];
+  }
+  return str === reversed;
+}
 
 //Solution 2 unupdated one
 
@@ -52,10 +52,10 @@
 
 //Solution Updated one
 
-function isPalindrome(str) {
-  const formated = str.toLowerCase().replace(/[^a-z0-9]/g, "");
-  const reversed = str.toLowerCase().split("").reverse().join("");
-  return formated === reversed;
-}
+// function isPalindrome(str) {
+//   const formated = str.toLowerCase().replace(/[^a-z0-9]/g, "");
+//   const reversed = str.toLowerCase().split("").reverse().join("");
+//   return formated === reversed;
+// }
 
 module.exports = isPalindrome;
